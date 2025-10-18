@@ -21,12 +21,20 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "src/assets",
+                "output": "assets"
+              },
+              {
+                "glob": "favicon.ico",
+                "input": "src",
+                "output": "."
               }
             ],
             "styles": [
               "src/styles.css"
-            ]
+            ],
+            "outputPath": "dist/cidade-segura",
+            "index": "src/index.html"
           },
           "configurations": {
             "production": {
