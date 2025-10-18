@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -9,4 +9,26 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = signal('cidade-segura');
+
+  constructor(private router: Router) { }
+  
+  verHome() {
+    this.router.navigate(['/home']);
+  }
+
+  verDetalhesAlerta() {
+    this.router.navigate(['/alerta']);
+  }
+
+  verContatosEmergencia() {
+    this.router.navigate(['/emergencia']);
+  }
+
+  verFaq() {
+    this.router.navigate(['/faq']);
+  }
+
+  verConscientizacao() {
+    this.router.navigate(['/conscientizacao']);
+  }
 }

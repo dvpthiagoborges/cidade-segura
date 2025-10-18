@@ -1,0 +1,58 @@
+.emergencia-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.intro {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 260px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #0077b6;
+  margin-bottom: 0.5rem;
+}
+
+.phone {
+  display: inline-block;
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #005f87;
+  text-decoration: none;
+}
+
+.phone:hover {
+  text-decoration: underline;
+}
+
+.voltar {
+  margin-top: 2rem;
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8re
+}

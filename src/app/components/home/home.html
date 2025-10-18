@@ -1,0 +1,17 @@
+<!-- home.component.html -->
+<div class="home-container">
+
+  <!-- Banner de Alerta -->
+  <div class="alert-banner" (click)="verDetalhesAlerta()">
+    <h2>⚠️ Alerta de Alagamento Ativo</h2>
+    <p>Bairros afetados: Centro, Jardim das Flores e Vila Nova.</p>
+    <small>Clique aqui para mais informações</small>
+  </div>
+
+  <!-- Botões de navegação -->
+  <div class="home-buttons">
+    <button (click)="verContatosEmergencia()">🚨 Contatos de Emergência</button>
+    <button (click)="verFaq()">❓ Dúvidas Frequentes</button>
+    <button (click)="verConscientizacao()">🌎 Conscientização</button>
+  </div>
+</div>

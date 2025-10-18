@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+/* 🌐 Fonte e reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+/* 🧭 Links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 🟦 Botões padrões */
+button,
+.btn {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: 500;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #005f87;
+  transform: translateY(-2px);
+}
+
+/* 🧩 Layout */
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* 💬 Títulos */
+h1,
+h2,
+h3 {
+  color: #023e8a;
+}
+
+/* ✨ Cards padrão */
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
